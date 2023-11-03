@@ -1,0 +1,6 @@
+function start(){
+	var firstRoll = readInt("What is your first roll?");
+	var secondRoll= readInt("What is your second roll?");
+	var gotDouble = firstRoll == secondRoll;
+	println("Rolled Double: " + gotDouble);
+}
