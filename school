@@ -1,0 +1,7 @@
+function start(){
+    //Write your code here
+    var atSchoolToday = readBoolean("Is today a weekday? " );
+	var holiday = readBoolean("Is today a holiday? ");
+	var noSchoolToday = !atSchoolToday|| holiday;
+	println("School today: " + noSchoolToday);
+}
