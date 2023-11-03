@@ -1,0 +1,8 @@
+function start(){
+	var name = readLine("What is your name?");
+	var droids = readInt("How many droids do you want to meet?");
+	var wookies = readInt("How many wookies do you want to meet?");
+	println("Name is: " + name);
+	println(droids + " Droids");
+	println(wookies + " Wookies");
+}
