@@ -1,0 +1,9 @@
+function start(){
+	mouseClickMethod(drawRectangle);
+}
+
+function drawRectangle(e){
+	var rectangle = new Rectangle(20,30);
+	rectangle.setPosition(e.getX(), e.getY());
+	add(rectangle);
+}
