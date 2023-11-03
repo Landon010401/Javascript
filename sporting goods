@@ -1,0 +1,7 @@
+//Declare a constant here to represent the cost of a frisbee
+var COST_OF_FRISBEE = 15;
+function start(){
+	var frisbee = readLine("How many frisbees would yo like to buy?");
+	var cost = (frisbee * COST_OF_FRISBEE);
+	println(cost);
+}
