@@ -1,0 +1,6 @@
+function start(){
+	var atLeastThirtyFive = readBoolean("Are you at least thirty five years old? ");
+	var isUSCitizen = readBoolean("Are you a US Citizen? ");
+	var canBePresident = atLeastThirtyFive && isUSCitizen;
+	println("Can be president: " + canBePresident);
+}
